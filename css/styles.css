@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100i,400|Lobster|Playfair+Display:900');
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: rgba(51, 51, 51, .5);
 }
@@ -61,4 +62,32 @@ button.btn-warning:hover {
 
 #farm-background {
   background-image: url('../img/farm-2.jpg')
+}
+
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+#our-story>h1 {
+  font-size: 80px;
+  color: #F8512F;
+  text-shadow: 2px 2px 6px #333;
+}
+
+#our-story>h3 {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.our-story {
+  margin: 10% auto;
+}
+
+#os-p>h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  position: absolute;
+  z-index: 0;
+  color: rgba(51, 51, 51, .15);
+  font-size: 12em;
 }
