@@ -128,3 +128,14 @@ button.btn-warning:hover {
   text-shadow: 1px 1px 2px #111;
   font-weight: 300;
 }
+
+.contact-form {
+  padding: 10px;
+  background-color: #FF6633;
+  border: 1px solid #fff;
+}
+
+.orange {
+  color: #fff;
+  background-color: #F8512F;
+}
