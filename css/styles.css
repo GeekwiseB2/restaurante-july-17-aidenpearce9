@@ -132,32 +132,36 @@ button.btn-warning:hover {
   font-weight: 300;
 }
 
-#menu {
-  background-image: url('../img/black_linen.png');
-  height: 600px;
-}
-
-#menu h1 {
-  font-family: 'Lobster', cursive;
+.orange {
   color: #fff;
-  font-size: 5em;
+  background-color: #F8512F;
 }
 
-.food {
-  background-color: #fff;
-  height: 445px;
-  overflow: auto;
-  padding: 8px 12px;
+.contact-form {
+  padding: 10px 15px;
+  background-color: #FF6633;
+  border: 1px solid #fff;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu a {
-  color: #F8512F;
+#contact-us h1 {
   font-family: 'Lato', serif;
-  font-weight: 900;
+  font-size: 3.5em;
   text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 5px;
 }
 
-#menu a:hover {
-  background-color: rgba(255, 255, 255, .2);
-  border-color: transparent;
+#contact-us p {
+  margin-bottom: 65px;
+}
+
+.address {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  padding: 0 100px;
+}
+
+#address {
+  font-family: 'Lato';
+  font-weight: 900;
 }
